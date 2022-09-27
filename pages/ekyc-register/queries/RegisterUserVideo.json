@@ -24,7 +24,7 @@
       "headers": [
         {
           "key": "content-type",
-          "value": "application/x-www-form-urlencoded"
+          "value": "multipart/form-data"
         },
         {
           "key": "Authorization",
@@ -37,23 +37,28 @@
       "bodyFormData": [
         {
           "key": "video",
-          "value": "{{Camera1.videoRawBinary}}"
+          "value": "{{Camera1.videoRawBinary}}",
+          "type": "FILE"
         },
         {
           "key": "user_id",
-          "value": "{{query_userid.text}}"
+          "value": "{{query_userid.text}}",
+          "type": "TEXT"
         },
         {
           "key": "source",
-          "value": "THAI_HUNG_DEV"
+          "value": "THAI_HUNG_DEV",
+          "type": "TEXT"
         },
         {
           "key": "check_liveness",
-          "value": "False"
+          "value": "False",
+          "type": "TEXT"
         },
         {
           "key": "face_threshold",
-          "value": "0.8"
+          "value": "0.8",
+          "type": "TEXT"
         }
       ],
       "httpMethod": "POST",
@@ -63,7 +68,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/x-www-form-urlencoded"
+        "apiContentType": "multipart/form-data"
       }
     },
     "executeOnLoad": false,

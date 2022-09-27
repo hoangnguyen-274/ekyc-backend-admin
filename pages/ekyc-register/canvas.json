@@ -743,6 +743,11 @@
                     },
                     {
                       "widgetName": "EKYC",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -771,13 +776,13 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "Master EKYC",
+                      "text": "THÁI HƯNG",
                       "key": "mib35beovp",
                       "isDeprecated": false,
                       "rightColumn": 61,
                       "textAlign": "LEFT",
                       "widgetId": "6fl8415lya",
-                      "isVisible": true,
+                      "isVisible": "true",
                       "fontStyle": "BOLD",
                       "textColor": "#fff",
                       "version": 1,
@@ -2796,6 +2801,11 @@
               "widgetName": "Container2",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
               "searchTags": [
@@ -3015,6 +3025,11 @@
                       "boxShadow": "none",
                       "widgetName": "Camera1",
                       "isCanvas": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Camera",
                       "iconSVG": "/static/media/icon.79c0d6de26a15bf464f2485130faa461.svg",
                       "searchTags": [
@@ -3044,9 +3059,9 @@
                       "isMirrored": true,
                       "isDeprecated": false,
                       "rightColumn": 56,
-                      "onVideoSave": "",
+                      "onVideoSave": "{{RegisterUserVideo.run()}}",
                       "widgetId": "7ckeigalq7",
-                      "isVisible": true,
+                      "isVisible": "true",
                       "version": 1,
                       "parentId": "p1iyvc4ois",
                       "renderMode": "CANVAS",
@@ -3127,7 +3142,7 @@
               "rightColumn": 64,
               "widgetId": "s0bb8mm202",
               "containerStyle": "card",
-              "isVisible": true,
+              "isVisible": "true",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
