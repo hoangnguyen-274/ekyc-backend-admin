@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Gửi thông tin",
+      "id": "ekyc-register",
       "isDefault": true
-    },
-    {
-      "id": "Đăng ký khuôn mặt",
-      "isDefault": false
     }
   ],
   "viewMode": false,

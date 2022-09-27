@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Gửi thông tin",
+    "pageId": "ekyc-register",
     "actionConfiguration": {
       "timeoutInMillisecond": 1000000,
       "paginationType": "NONE",
@@ -89,7 +89,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Gửi thông tin_RegisterUserVideo",
+  "id": "ekyc-register_RegisterUserVideo",
   "deleted": false,
   "gitSyncId": "632c0920f774ad2bde7b8bed_633185bdb74f766452546468"
 }

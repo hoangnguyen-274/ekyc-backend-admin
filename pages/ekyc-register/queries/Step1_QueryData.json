@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Gửi thông tin",
+    "pageId": "ekyc-register",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -66,7 +66,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Gửi thông tin_Step1_QueryData",
+  "id": "ekyc-register_Step1_QueryData",
   "deleted": false,
   "gitSyncId": "632c0920f774ad2bde7b8bed_63316e62c85ec46372f31f10"
 }

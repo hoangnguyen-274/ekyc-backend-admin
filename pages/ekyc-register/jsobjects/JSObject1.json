@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject1",
-    "pageId": "Gửi thông tin",
+    "pageId": "ekyc-register",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "id": "Gửi thông tin_JSObject1",
+  "id": "ekyc-register_JSObject1",
   "deleted": false,
   "gitSyncId": "632c0920f774ad2bde7b8bed_6331557e08bc5b0d3da160e2"
 }
