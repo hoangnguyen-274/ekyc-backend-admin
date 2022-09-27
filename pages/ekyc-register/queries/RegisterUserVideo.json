@@ -37,7 +37,7 @@
       "bodyFormData": [
         {
           "key": "video",
-          "value": "{{Camera1.videoRawBinary}}",
+          "value": "{{Camera1}}",
           "type": "FILE"
         },
         {
@@ -86,7 +86,7 @@
     ],
     "messages": [],
     "jsonPathKeys": [
-      "Camera1.videoRawBinary",
+      "Camera1",
       "query_userid.text"
     ],
     "userSetOnLoad": false,
