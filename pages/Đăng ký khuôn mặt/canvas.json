@@ -330,7 +330,7 @@
                       ],
                       "isDisabled": false,
                       "key": "gpsvry4eaz",
-                      "onFilesSelected": "{{showAlert('Chọn Xác nhận để hoàn thành đăng ký','info')}}",
+                      "onFilesSelected": "{{showAlert('Chọn Xác nhận để đăng ký','info')}}",
                       "isRequired": true,
                       "isDeprecated": false,
                       "rightColumn": 49,
