@@ -3,6 +3,10 @@
     {
       "id": "ekyc-register",
       "isDefault": true
+    },
+    {
+      "id": "ekyc-register Copy",
+      "isDefault": false
     }
   ],
   "viewMode": false,
