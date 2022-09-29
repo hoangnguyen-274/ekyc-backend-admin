@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "ekyc-register",
+    "pageId": "Đăng ký khuôn mặt",
     "actionConfiguration": {
       "timeoutInMillisecond": 1000000,
       "paginationType": "NONE",
@@ -37,12 +37,12 @@
       "bodyFormData": [
         {
           "key": "video",
-          "value": "{{Camera1}}",
+          "value": "{{FilePicker1.files[0]}}",
           "type": "FILE"
         },
         {
           "key": "user_id",
-          "value": "{{query_userid.text}}",
+          "value": "{{Step1_QueryData.data.results[0].user_id}}",
           "type": "TEXT"
         },
         {
@@ -59,6 +59,11 @@
           "key": "face_threshold",
           "value": "0.8",
           "type": "TEXT"
+        },
+        {
+          "key": "force_replace",
+          "value": "True",
+          "type": "TEXT"
         }
       ],
       "httpMethod": "POST",
@@ -74,10 +79,10 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "bodyFormData[1].value"
+        "key": "bodyFormData[0].value"
       },
       {
-        "key": "bodyFormData[0].value"
+        "key": "bodyFormData[1].value"
       }
     ],
     "isValid": true,
@@ -86,15 +91,15 @@
     ],
     "messages": [],
     "jsonPathKeys": [
-      "Camera1",
-      "query_userid.text"
+      "FilePicker1.files[0]",
+      "Step1_QueryData.data.results[0].user_id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "ekyc-register_RegisterUserVideo",
+  "id": "Đăng ký khuôn mặt_RegisterUserVideo",
   "deleted": false,
-  "gitSyncId": "632c0920f774ad2bde7b8bed_633185bdb74f766452546468"
+  "gitSyncId": "632c0920f774ad2bde7b8bed_63355d5c7b05826f0de309a8"
 }

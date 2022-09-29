@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "ekyc-register Copy",
-    "slug": "ekyc-register-copy",
+    "name": "Đăng ký khuôn mặt",
+    "slug": "ang-ky-khuon-mat",
     "layouts": [
       {
         "viewMode": false,
@@ -34,8 +34,8 @@
               "searchTags": [
                 "percent"
               ],
-              "topRow": 150,
-              "bottomRow": 154,
+              "topRow": 119,
+              "bottomRow": 123,
               "parentRowSpace": 10,
               "type": "PROGRESS_WIDGET",
               "isIndeterminate": false,
@@ -77,7 +77,7 @@
                 "group"
               ],
               "topRow": 89,
-              "bottomRow": 150,
+              "bottomRow": 118,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -98,7 +98,7 @@
                   "widgetName": "Canvas3Copy",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 600,
+                  "bottomRow": 390,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -115,208 +115,6 @@
                     }
                   ],
                   "children": [
-                    {
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "widgetName": "Video1Copy",
-                      "displayName": "Video",
-                      "iconSVG": "/static/media/icon.39c2d6968b6bb91bbe019646a9243566.svg",
-                      "searchTags": [
-                        "youtube"
-                      ],
-                      "topRow": 13,
-                      "bottomRow": 52,
-                      "parentRowSpace": 10,
-                      "type": "VIDEO_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 13.1884765625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 39,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
-                        }
-                      ],
-                      "key": "k1pmpu0amg",
-                      "isDeprecated": false,
-                      "rightColumn": 61,
-                      "widgetId": "6jsukltgte",
-                      "isVisible": true,
-                      "version": 1,
-                      "url": "https://i.imgur.com/Tl6iD4r.mp4",
-                      "parentId": "zz04e2xkev",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "autoPlay": false
-                    },
-                    {
-                      "tabId": "",
-                      "boxShadow": "NONE",
-                      "widgetName": "Container2Copy",
-                      "borderColor": "transparent",
-                      "isCanvas": true,
-                      "displayName": "Container",
-                      "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-                      "searchTags": [
-                        "div",
-                        "parent",
-                        "group"
-                      ],
-                      "topRow": 24,
-                      "bottomRow": 31,
-                      "parentRowSpace": 10,
-                      "type": "CONTAINER_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 5.715044438838959,
-                      "leftColumn": 3,
-                      "children": [
-                        {
-                          "rightColumn": 365.76284408569336,
-                          "widgetName": "Canvas5Copy",
-                          "detachFromLayout": true,
-                          "widgetId": "newgl5mqcu",
-                          "containerStyle": "none",
-                          "bottomRow": 70,
-                          "topRow": 0,
-                          "parentRowSpace": 1,
-                          "isVisible": true,
-                          "type": "CANVAS_WIDGET",
-                          "canExtend": false,
-                          "version": 1,
-                          "parentId": "d4uwxuxxq6",
-                          "props": {
-                            "containerStyle": "none",
-                            "canExtend": false,
-                            "detachFromLayout": true,
-                            "children": []
-                          },
-                          "isLoading": false,
-                          "minHeight": 52.251834869384766,
-                          "renderMode": "CANVAS",
-                          "parentColumnSpace": 1,
-                          "leftColumn": 0,
-                          "children": [
-                            {
-                              "widgetName": "Text6Copy",
-                              "displayName": "Text",
-                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                              "searchTags": [
-                                "typography",
-                                "paragraph",
-                                "label"
-                              ],
-                              "topRow": 0,
-                              "bottomRow": 5,
-                              "parentRowSpace": 10,
-                              "type": "TEXT_WIDGET",
-                              "hideCard": false,
-                              "animateLoading": true,
-                              "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                              "parentColumnSpace": 5.715044438838959,
-                              "dynamicTriggerPathList": [],
-                              "leftColumn": 0,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "fontFamily"
-                                },
-                                {
-                                  "key": "borderRadius"
-                                }
-                              ],
-                              "shouldTruncate": false,
-                              "truncateButtonColor": "#FFC13D",
-                              "text": "Video khuôn mặt",
-                              "key": "8r1xnb87zq",
-                              "isDeprecated": false,
-                              "rightColumn": 29,
-                              "textAlign": "LEFT",
-                              "widgetId": "whnfhxyl0y",
-                              "isVisible": true,
-                              "fontStyle": "BOLD",
-                              "textColor": "#231F20",
-                              "version": 1,
-                              "parentId": "newgl5mqcu",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "fontSize": "0.875rem"
-                            },
-                            {
-                              "boxShadow": "none",
-                              "widgetName": "FilePicker1",
-                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "displayName": "FilePicker1",
-                              "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
-                              "searchTags": [
-                                "upload"
-                              ],
-                              "topRow": 0,
-                              "bottomRow": 5,
-                              "parentRowSpace": 10,
-                              "allowedFileTypes": [
-                                "video/*"
-                              ],
-                              "type": "FILE_PICKER_WIDGET_V2",
-                              "hideCard": false,
-                              "animateLoading": true,
-                              "parentColumnSpace": 5.715044438838959,
-                              "dynamicTriggerPathList": [
-                                {
-                                  "key": "onFilesSelected"
-                                }
-                              ],
-                              "leftColumn": 29,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "buttonColor"
-                                },
-                                {
-                                  "key": "borderRadius"
-                                }
-                              ],
-                              "isDisabled": false,
-                              "key": "gpsvry4eaz",
-                              "onFilesSelected": "{{RegisterUserVideo.run(() => showAlert('Đăng ký thành công','success'), () => showAlert('Đăng ký thất bại','error'))}}",
-                              "isRequired": true,
-                              "isDeprecated": false,
-                              "rightColumn": 64,
-                              "isDefaultClickDisabled": true,
-                              "widgetId": "734ebdniin",
-                              "isVisible": true,
-                              "label": "Chọn video",
-                              "maxFileSize": "10",
-                              "version": 1,
-                              "fileDataType": "Binary",
-                              "parentId": "newgl5mqcu",
-                              "selectedFiles": [],
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "files": [],
-                              "maxNumFiles": 1
-                            }
-                          ]
-                        }
-                      ],
-                      "borderWidth": "0",
-                      "key": "l23z0vacfh",
-                      "backgroundColor": "#FFFFFF",
-                      "isDeprecated": false,
-                      "rightColumn": 31,
-                      "widgetId": "d4uwxuxxq6",
-                      "containerStyle": "card",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "zz04e2xkev",
-                      "renderMode": "CANVAS",
-                      "isLoading": false
-                    },
                     {
                       "widgetName": "Text3CopyCopy",
                       "displayName": "Text",
@@ -401,52 +199,6 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                     },
                     {
-                      "widgetName": "Text10",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 9,
-                      "bottomRow": 13,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 13.701171875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 41,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "#FFC13D",
-                      "text": "Video hướng dẫn",
-                      "key": "snsdew0vha",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "textAlign": "CENTER",
-                      "widgetId": "79wkgny8d9",
-                      "isVisible": true,
-                      "fontStyle": "",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "zz04e2xkev",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
-                    },
-                    {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button6Copy",
@@ -458,8 +210,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 54,
-                      "bottomRow": 58,
+                      "topRow": 22,
+                      "bottomRow": 26,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -470,7 +222,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 48,
+                      "leftColumn": 50,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -483,7 +235,7 @@
                       "isDisabled": false,
                       "key": "15dtmg9bdr",
                       "isDeprecated": false,
-                      "rightColumn": 60,
+                      "rightColumn": 59,
                       "isDefaultClickDisabled": true,
                       "widgetId": "y8qu4jnrfv",
                       "isVisible": true,
@@ -496,6 +248,106 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Text6Copy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 11,
+                      "bottomRow": 16,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 5.715044438838959,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 19,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Video khuôn mặt",
+                      "key": "8r1xnb87zq",
+                      "isDeprecated": false,
+                      "rightColumn": 30,
+                      "textAlign": "LEFT",
+                      "widgetId": "whnfhxyl0y",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "zz04e2xkev",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "fontSize": "0.875rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "FilePicker1",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "FilePicker1",
+                      "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
+                      "searchTags": [
+                        "upload"
+                      ],
+                      "topRow": 11,
+                      "bottomRow": 16,
+                      "parentRowSpace": 10,
+                      "allowedFileTypes": [
+                        "video/*"
+                      ],
+                      "type": "FILE_PICKER_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 5.715044438838959,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onFilesSelected"
+                        }
+                      ],
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "gpsvry4eaz",
+                      "onFilesSelected": "",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 49,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "734ebdniin",
+                      "isVisible": true,
+                      "label": "Chọn file tải lên",
+                      "maxFileSize": "10",
+                      "version": 1,
+                      "fileDataType": "Binary",
+                      "parentId": "zz04e2xkev",
+                      "selectedFiles": [],
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "files": [],
+                      "maxNumFiles": 1
                     }
                   ],
                   "key": "wxol8feddv",
@@ -828,13 +680,14 @@
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Form1",
               "isCanvas": true,
+              "dynamicPropertyPathList": [],
               "displayName": "Form",
               "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
               "searchTags": [
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 22,
+              "bottomRow": 23,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -921,7 +774,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{Step1_QueryData.run()}}",
+                      "onClick": "{{Step1_QueryData.run(() => showAlert('Tìm kiếm thành công','success'), () => showAlert('Không tìm thấy UserID','error'))}}",
                       "buttonColor": "#00024c",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
@@ -930,8 +783,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 14,
-                      "bottomRow": 19,
+                      "topRow": 15,
+                      "bottomRow": 20,
                       "tooltip": "",
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -941,7 +794,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 38,
+                      "leftColumn": 40,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -951,7 +804,7 @@
                       "isDisabled": false,
                       "key": "no3o77hni4",
                       "isDeprecated": false,
-                      "rightColumn": 51,
+                      "rightColumn": 53,
                       "isDefaultClickDisabled": true,
                       "iconName": "search",
                       "widgetId": "4sklho0jwv",
@@ -981,7 +834,7 @@
                       "topRow": 9,
                       "bottomRow": 14,
                       "parentRowSpace": 10,
-                      "labelWidth": 5,
+                      "labelWidth": "10",
                       "autoFocus": false,
                       "type": "INPUT_WIDGET_V2",
                       "hideCard": false,
@@ -989,7 +842,7 @@
                       "parentColumnSpace": 13.1884765625,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 15,
+                      "leftColumn": 18,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1007,12 +860,12 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 51,
+                      "rightColumn": 53,
                       "iconName": "info-sign",
                       "widgetId": "vb6niwtaqb",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
-                      "label": "UserID",
+                      "label": "Mã người dùng",
                       "version": 2,
                       "parentId": "4u9q8of8hn",
                       "labelAlignment": "left",
@@ -1020,7 +873,7 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "iconAlign": "left",
-                      "defaultText": "N03200116"
+                      "defaultText": "Mã nhân viên/ Mã HSSV, ..."
                     },
                     {
                       "boxShadow": "none",
@@ -1568,7 +1421,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Text Input",
-                                      "sourceData": "THAI_HUNG_DEV__N03200116",
+                                      "sourceData": "a529b94912fe42119355a7740b028b53",
                                       "isCustomField": false,
                                       "accessor": "id",
                                       "identifier": "id",
@@ -1589,7 +1442,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Text Input",
-                                      "sourceData": "N03200116",
+                                      "sourceData": "Mã nhân viên/ Mã HSSV, ...",
                                       "isCustomField": false,
                                       "accessor": "user_id",
                                       "identifier": "user_id",
@@ -1610,7 +1463,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Text Input",
-                                      "sourceData": "Phạm Đức Tâm",
+                                      "sourceData": "Nguyễn Văn A",
                                       "isCustomField": false,
                                       "accessor": "name",
                                       "identifier": "name",
@@ -1689,7 +1542,7 @@
                                     },
                                     "profile_image_url": {
                                       "children": {},
-                                      "dataType": "null",
+                                      "dataType": "string",
                                       "fieldType": "Text Input",
                                       "isCustomField": false,
                                       "accessor": "profile_image_url",
@@ -1713,7 +1566,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "Phạm Đức Tâm",
+                                          "sourceData": "Nguyễn Văn A",
                                           "isCustomField": false,
                                           "accessor": "name",
                                           "identifier": "name",
@@ -1755,7 +1608,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "Trưởng phòng Đào tạo",
+                                          "sourceData": "VỊ TRÍ",
                                           "isCustomField": false,
                                           "accessor": "position",
                                           "identifier": "position",
@@ -1776,7 +1629,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "PHÒNG ĐÀO TẠO & KHẢO THÍ",
+                                          "sourceData": "PHÒNG BAN",
                                           "isCustomField": false,
                                           "accessor": "department",
                                           "identifier": "department",
@@ -1792,15 +1645,37 @@
                                           "isVisible": true,
                                           "labelTextSize": "0.875rem",
                                           "label": "Department"
+                                        },
+                                        "source": {
+                                          "children": {},
+                                          "dataType": "string",
+                                          "fieldType": "Text Input",
+                                          "sourceData": "THAI_HUNG_DEV",
+                                          "isCustomField": false,
+                                          "accessor": "source",
+                                          "identifier": "source",
+                                          "position": 4,
+                                          "originalIdentifier": "source",
+                                          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                          "boxShadow": "none",
+                                          "iconAlign": "left",
+                                          "isDisabled": false,
+                                          "isRequired": false,
+                                          "isSpellCheck": false,
+                                          "isVisible": true,
+                                          "labelTextSize": "0.875rem",
+                                          "label": "Source"
                                         }
                                       },
                                       "dataType": "object",
                                       "fieldType": "Object",
                                       "sourceData": {
-                                        "name": "Phạm Đức Tâm",
+                                        "name": "Nguyễn Văn A",
                                         "gender": "Nam",
-                                        "position": "Trưởng phòng Đào tạo",
-                                        "department": "PHÒNG ĐÀO TẠO & KHẢO THÍ"
+                                        "position": "VỊ TRÍ",
+                                        "department": "PHÒNG BAN",
+                                        "source": "THAI_HUNG_DEV"
                                       },
                                       "isCustomField": false,
                                       "accessor": "metadata",
@@ -1821,7 +1696,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Datepicker",
-                                      "sourceData": "26/09/2022",
+                                      "sourceData": "29/09/2022",
                                       "isCustomField": false,
                                       "accessor": "created",
                                       "identifier": "created",
@@ -1847,7 +1722,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Datepicker",
-                                      "sourceData": "26/09/2022",
+                                      "sourceData": "29/09/2022",
                                       "isCustomField": false,
                                       "accessor": "updated_at",
                                       "identifier": "updated_at",
@@ -1873,17 +1748,18 @@
                                   "dataType": "object",
                                   "fieldType": "Object",
                                   "sourceData": {
-                                    "id": "THAI_HUNG_DEV__N03200116",
-                                    "user_id": "N03200116",
-                                    "name": "Phạm Đức Tâm",
+                                    "id": "a529b94912fe42119355a7740b028b53",
+                                    "user_id": "Mã nhân viên/ Mã HSSV, ...",
+                                    "name": "Nguyễn Văn A",
                                     "metadata": {
-                                      "name": "Phạm Đức Tâm",
+                                      "name": "Nguyễn Văn A",
                                       "gender": "Nam",
-                                      "position": "Trưởng phòng Đào tạo",
-                                      "department": "PHÒNG ĐÀO TẠO & KHẢO THÍ"
+                                      "position": "VỊ TRÍ",
+                                      "department": "PHÒNG BAN",
+                                      "source": "THAI_HUNG_DEV"
                                     },
-                                    "created": "26/09/2022",
-                                    "updated_at": "26/09/2022"
+                                    "created": "29/09/2022",
+                                    "updated_at": "29/09/2022"
                                   },
                                   "isCustomField": false,
                                   "accessor": "__array_item__",
@@ -1906,17 +1782,18 @@
                               "fieldType": "Array",
                               "sourceData": [
                                 {
-                                  "id": "THAI_HUNG_DEV__N03200116",
-                                  "user_id": "N03200116",
-                                  "name": "Phạm Đức Tâm",
+                                  "id": "a529b94912fe42119355a7740b028b53",
+                                  "user_id": "Mã nhân viên/ Mã HSSV, ...",
+                                  "name": "Nguyễn Văn A",
                                   "metadata": {
-                                    "name": "Phạm Đức Tâm",
+                                    "name": "Nguyễn Văn A",
                                     "gender": "Nam",
-                                    "position": "Trưởng phòng Đào tạo",
-                                    "department": "PHÒNG ĐÀO TẠO & KHẢO THÍ"
+                                    "position": "VỊ TRÍ",
+                                    "department": "PHÒNG BAN",
+                                    "source": "THAI_HUNG_DEV"
                                   },
-                                  "created": "26/09/2022",
-                                  "updated_at": "26/09/2022"
+                                  "created": "29/09/2022",
+                                  "updated_at": "29/09/2022"
                                 }
                               ],
                               "isCustomField": false,
@@ -1944,7 +1821,7 @@
                               "fieldType": "Text Input",
                               "sourceData": "",
                               "isCustomField": true,
-                              "accessor": "UserID",
+                              "accessor": "userid",
                               "identifier": "customField1",
                               "position": 4,
                               "originalIdentifier": "customField1",
@@ -1957,7 +1834,7 @@
                               "isSpellCheck": false,
                               "isVisible": true,
                               "labelTextSize": "0.875rem",
-                              "label": "UserID"
+                              "label": "Mã người dùng"
                             },
                             "customField2": {
                               "children": {},
@@ -2055,17 +1932,18 @@
                             "count": 1,
                             "results": [
                               {
-                                "id": "THAI_HUNG_DEV__N03200116",
-                                "user_id": "N03200116",
-                                "name": "Phạm Đức Tâm",
+                                "id": "a529b94912fe42119355a7740b028b53",
+                                "user_id": "Mã nhân viên/ Mã HSSV, ...",
+                                "name": "Nguyễn Văn A",
                                 "metadata": {
-                                  "name": "Phạm Đức Tâm",
+                                  "name": "Nguyễn Văn A",
                                   "gender": "Nam",
-                                  "position": "Trưởng phòng Đào tạo",
-                                  "department": "PHÒNG ĐÀO TẠO & KHẢO THÍ"
+                                  "position": "VỊ TRÍ",
+                                  "department": "PHÒNG BAN",
+                                  "source": "THAI_HUNG_DEV"
                                 },
-                                "created": "26/09/2022",
-                                "updated_at": "26/09/2022"
+                                "created": "29/09/2022",
+                                "updated_at": "29/09/2022"
                               }
                             ]
                           },
@@ -2109,6 +1987,7 @@
                       ],
                       "displayName": "JSON Form",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
+                      "onSubmit": "{{storeValue('userid',sourceData.results[0].user_id)}}",
                       "topRow": 9,
                       "bottomRow": 59,
                       "fieldLimitExceeded": false,
@@ -2118,7 +1997,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 13.701171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
                       "leftColumn": 5,
                       "dynamicBindingPathList": [
                         {
@@ -2408,6 +2291,12 @@
                         },
                         {
                           "key": "schema.__root_schema__.children.customField5.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.results.children.__array_item__.children.metadata.children.source.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.results.children.__array_item__.children.metadata.children.source.borderRadius"
                         }
                       ],
                       "sourceData": "{{Step1_QueryData.data}}",
@@ -2707,7 +2596,7 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Xác nhận",
+                      "text": "Thoát",
                       "isDisabled": false,
                       "key": "kjip2izw1s",
                       "isDeprecated": false,
@@ -2845,7 +2734,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "ekyc-register Copy_Step1_QueryData",
+              "id": "Đăng ký khuôn mặt_Step1_QueryData",
               "name": "Step1_QueryData",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -2858,7 +2747,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "ekyc-register Copy",
+        "id": "Đăng ký khuôn mặt",
         "deleted": false,
         "policies": [],
         "userPermissions": []

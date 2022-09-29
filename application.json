@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "ekyc-register",
+      "id": "Đăng ký khuôn mặt",
       "isDefault": true
-    },
-    {
-      "id": "ekyc-register Copy",
-      "isDefault": false
     }
   ],
   "viewMode": false,

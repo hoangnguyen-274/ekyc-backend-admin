@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject2",
-    "pageId": "ekyc-register",
+    "pageId": "Đăng ký khuôn mặt",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "id": "ekyc-register_JSObject2",
+  "id": "Đăng ký khuôn mặt_JSObject2",
   "deleted": false,
-  "gitSyncId": "632c0920f774ad2bde7b8bed_63318c1b87060d6e8f84e88f"
+  "gitSyncId": "632c0920f774ad2bde7b8bed_63355d5c7b05826f0de309b5"
 }

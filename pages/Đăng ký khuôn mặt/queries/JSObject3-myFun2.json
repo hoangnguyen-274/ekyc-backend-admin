@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject2.myFun1",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject3.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,15 +16,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "ekyc-register Copy",
-    "collectionId": "ekyc-register Copy_JSObject2",
+    "pageId": "Đăng ký khuôn mặt",
+    "collectionId": "Đăng ký khuôn mặt_JSObject3",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
+      "body": "async () => {}",
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "ekyc-register Copy_JSObject2.myFun1",
+  "id": "Đăng ký khuôn mặt_JSObject3.myFun2",
   "deleted": false,
-  "gitSyncId": "632c0920f774ad2bde7b8bed_63355d5c7b05826f0de309a5"
+  "gitSyncId": "632c0920f774ad2bde7b8bed_63355d5c7b05826f0de309a3"
 }
