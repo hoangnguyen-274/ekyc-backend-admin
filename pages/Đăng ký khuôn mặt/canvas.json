@@ -776,7 +776,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{Step1_QueryData.run(() => showAlert('Vui lòng kiểm tra thông tin tại mục 2. THÔNG TIN NGƯỜI DÙNG \nvà gửi Video đăng ký khuôn mặt tại mục 3. GỬI FILE ĐĂN G KÝ KHUÔN MẶT','success'), () => showAlert('Đã xảy ra lỗi trong quá trình tìm kiếm','error'))}}",
+                      "onClick": "{{Step1_QueryData.run(() => showAlert('Vui lòng kiểm tra thông tin tại mục 2. THÔNG TIN NGƯỜI DÙNG và gửi Video đăng ký khuôn mặt tại mục 3. GỬI FILE ĐĂNG KÝ','success'), () => showAlert('Đã xảy ra lỗi trong quá trình tìm kiếm','error'))}}",
                       "buttonColor": "#00024c",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
