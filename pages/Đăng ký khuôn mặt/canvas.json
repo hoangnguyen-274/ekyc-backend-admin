@@ -34,8 +34,8 @@
               "searchTags": [
                 "percent"
               ],
-              "topRow": 119,
-              "bottomRow": 123,
+              "topRow": 89,
+              "bottomRow": 93,
               "parentRowSpace": 10,
               "type": "PROGRESS_WIDGET",
               "isIndeterminate": false,
@@ -76,8 +76,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 89,
-              "bottomRow": 118,
+              "topRow": 93,
+              "bottomRow": 122,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -202,7 +202,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button6Copy",
-                      "onClick": "{{RegisterUserVideo.run(() => showModal('Modal2'), () => resetWidget(\"\",true))}}",
+                      "onClick": "{{RegisterUserVideo.run(() => showModal('Modal2'), () => showAlert('Đăng ký thất bại','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -684,7 +684,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 23,
+              "bottomRow": 25,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -780,8 +780,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 15,
-                      "bottomRow": 20,
+                      "topRow": 17,
+                      "bottomRow": 22,
                       "tooltip": "",
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -828,8 +828,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 9,
-                      "bottomRow": 14,
+                      "topRow": 10,
+                      "bottomRow": 15,
                       "parentRowSpace": 10,
                       "labelWidth": "10",
                       "autoFocus": false,
@@ -839,7 +839,7 @@
                       "parentColumnSpace": 13.1884765625,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 18,
+                      "leftColumn": 14,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1216,8 +1216,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 23,
-              "bottomRow": 85,
+              "topRow": 29,
+              "bottomRow": 89,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1418,7 +1418,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Text Input",
-                                      "sourceData": "a529b94912fe42119355a7740b028b53",
+                                      "sourceData": "THAI_HUNG_DEV__N09190087",
                                       "isCustomField": false,
                                       "accessor": "id",
                                       "identifier": "id",
@@ -1439,7 +1439,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Text Input",
-                                      "sourceData": "Mã nhân viên/ Mã HSSV, ...",
+                                      "sourceData": "N09190087",
                                       "isCustomField": false,
                                       "accessor": "user_id",
                                       "identifier": "user_id",
@@ -1460,7 +1460,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Text Input",
-                                      "sourceData": "Nguyễn Văn A",
+                                      "sourceData": "Đào Thị Chi",
                                       "isCustomField": false,
                                       "accessor": "name",
                                       "identifier": "name",
@@ -1563,7 +1563,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "Nguyễn Văn A",
+                                          "sourceData": "Đào Thị Chi",
                                           "isCustomField": false,
                                           "accessor": "name",
                                           "identifier": "name",
@@ -1584,7 +1584,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "Nam",
+                                          "sourceData": "Nữ",
                                           "isCustomField": false,
                                           "accessor": "gender",
                                           "identifier": "gender",
@@ -1605,7 +1605,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "VỊ TRÍ",
+                                          "sourceData": "Nhân viên Hành chính",
                                           "isCustomField": false,
                                           "accessor": "position",
                                           "identifier": "position",
@@ -1626,7 +1626,7 @@
                                           "children": {},
                                           "dataType": "string",
                                           "fieldType": "Text Input",
-                                          "sourceData": "PHÒNG BAN",
+                                          "sourceData": "PHÒNG HCNS",
                                           "isCustomField": false,
                                           "accessor": "department",
                                           "identifier": "department",
@@ -1642,37 +1642,15 @@
                                           "isVisible": true,
                                           "labelTextSize": "0.875rem",
                                           "label": "Department"
-                                        },
-                                        "source": {
-                                          "children": {},
-                                          "dataType": "string",
-                                          "fieldType": "Text Input",
-                                          "sourceData": "THAI_HUNG_DEV",
-                                          "isCustomField": false,
-                                          "accessor": "source",
-                                          "identifier": "source",
-                                          "position": 4,
-                                          "originalIdentifier": "source",
-                                          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                          "boxShadow": "none",
-                                          "iconAlign": "left",
-                                          "isDisabled": false,
-                                          "isRequired": false,
-                                          "isSpellCheck": false,
-                                          "isVisible": true,
-                                          "labelTextSize": "0.875rem",
-                                          "label": "Source"
                                         }
                                       },
                                       "dataType": "object",
                                       "fieldType": "Object",
                                       "sourceData": {
-                                        "name": "Nguyễn Văn A",
-                                        "gender": "Nam",
-                                        "position": "VỊ TRÍ",
-                                        "department": "PHÒNG BAN",
-                                        "source": "THAI_HUNG_DEV"
+                                        "name": "Đào Thị Chi",
+                                        "gender": "Nữ",
+                                        "position": "Nhân viên Hành chính",
+                                        "department": "PHÒNG HCNS"
                                       },
                                       "isCustomField": false,
                                       "accessor": "metadata",
@@ -1693,7 +1671,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Datepicker",
-                                      "sourceData": "29/09/2022",
+                                      "sourceData": "26/09/2022",
                                       "isCustomField": false,
                                       "accessor": "created",
                                       "identifier": "created",
@@ -1719,7 +1697,7 @@
                                       "children": {},
                                       "dataType": "string",
                                       "fieldType": "Datepicker",
-                                      "sourceData": "29/09/2022",
+                                      "sourceData": "26/09/2022",
                                       "isCustomField": false,
                                       "accessor": "updated_at",
                                       "identifier": "updated_at",
@@ -1745,18 +1723,17 @@
                                   "dataType": "object",
                                   "fieldType": "Object",
                                   "sourceData": {
-                                    "id": "a529b94912fe42119355a7740b028b53",
-                                    "user_id": "Mã nhân viên/ Mã HSSV, ...",
-                                    "name": "Nguyễn Văn A",
+                                    "id": "THAI_HUNG_DEV__N09190087",
+                                    "user_id": "N09190087",
+                                    "name": "Đào Thị Chi",
                                     "metadata": {
-                                      "name": "Nguyễn Văn A",
-                                      "gender": "Nam",
-                                      "position": "VỊ TRÍ",
-                                      "department": "PHÒNG BAN",
-                                      "source": "THAI_HUNG_DEV"
+                                      "name": "Đào Thị Chi",
+                                      "gender": "Nữ",
+                                      "position": "Nhân viên Hành chính",
+                                      "department": "PHÒNG HCNS"
                                     },
-                                    "created": "29/09/2022",
-                                    "updated_at": "29/09/2022"
+                                    "created": "26/09/2022",
+                                    "updated_at": "26/09/2022"
                                   },
                                   "isCustomField": false,
                                   "accessor": "__array_item__",
@@ -1779,18 +1756,17 @@
                               "fieldType": "Array",
                               "sourceData": [
                                 {
-                                  "id": "a529b94912fe42119355a7740b028b53",
-                                  "user_id": "Mã nhân viên/ Mã HSSV, ...",
-                                  "name": "Nguyễn Văn A",
+                                  "id": "THAI_HUNG_DEV__N09190087",
+                                  "user_id": "N09190087",
+                                  "name": "Đào Thị Chi",
                                   "metadata": {
-                                    "name": "Nguyễn Văn A",
-                                    "gender": "Nam",
-                                    "position": "VỊ TRÍ",
-                                    "department": "PHÒNG BAN",
-                                    "source": "THAI_HUNG_DEV"
+                                    "name": "Đào Thị Chi",
+                                    "gender": "Nữ",
+                                    "position": "Nhân viên Hành chính",
+                                    "department": "PHÒNG HCNS"
                                   },
-                                  "created": "29/09/2022",
-                                  "updated_at": "29/09/2022"
+                                  "created": "26/09/2022",
+                                  "updated_at": "26/09/2022"
                                 }
                               ],
                               "isCustomField": false,
@@ -1929,18 +1905,17 @@
                             "count": 1,
                             "results": [
                               {
-                                "id": "a529b94912fe42119355a7740b028b53",
-                                "user_id": "Mã nhân viên/ Mã HSSV, ...",
-                                "name": "Nguyễn Văn A",
+                                "id": "THAI_HUNG_DEV__N09190087",
+                                "user_id": "N09190087",
+                                "name": "Đào Thị Chi",
                                 "metadata": {
-                                  "name": "Nguyễn Văn A",
-                                  "gender": "Nam",
-                                  "position": "VỊ TRÍ",
-                                  "department": "PHÒNG BAN",
-                                  "source": "THAI_HUNG_DEV"
+                                  "name": "Đào Thị Chi",
+                                  "gender": "Nữ",
+                                  "position": "Nhân viên Hành chính",
+                                  "department": "PHÒNG HCNS"
                                 },
-                                "created": "29/09/2022",
-                                "updated_at": "29/09/2022"
+                                "created": "26/09/2022",
+                                "updated_at": "26/09/2022"
                               }
                             ]
                           },
@@ -1987,7 +1962,7 @@
                       "onSubmit": "{{storeValue('userid',sourceData.results[0].user_id)}}",
                       "topRow": 9,
                       "bottomRow": 59,
-                      "fieldLimitExceeded": true,
+                      "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
                       "title": "",
                       "type": "JSON_FORM_WIDGET",
@@ -2288,12 +2263,6 @@
                         },
                         {
                           "key": "schema.__root_schema__.children.customField5.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.results.children.__array_item__.children.metadata.children.source.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.results.children.__array_item__.children.metadata.children.source.borderRadius"
                         }
                       ],
                       "sourceData": "{{Step1_QueryData.data}}",
@@ -2693,8 +2662,8 @@
               "searchTags": [
                 "percent"
               ],
-              "topRow": 85,
-              "bottomRow": 89,
+              "topRow": 25,
+              "bottomRow": 29,
               "parentRowSpace": 10,
               "type": "PROGRESS_WIDGET",
               "isIndeterminate": false,

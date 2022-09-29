@@ -37,7 +37,7 @@
       "bodyFormData": [
         {
           "key": "video",
-          "value": "{{FilePicker1.files[0]}}",
+          "value": "{{FilePicker1.files}}",
           "type": "FILE"
         },
         {
@@ -91,7 +91,7 @@
     ],
     "messages": [],
     "jsonPathKeys": [
-      "FilePicker1.files[0]",
+      "FilePicker1.files",
       "Step1_QueryData.data.results[0].user_id"
     ],
     "userSetOnLoad": false,
