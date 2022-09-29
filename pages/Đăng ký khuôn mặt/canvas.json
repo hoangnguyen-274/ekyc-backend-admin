@@ -239,6 +239,7 @@
                       "isDeprecated": false,
                       "rightColumn": 59,
                       "isDefaultClickDisabled": true,
+                      "iconName": "tick-circle",
                       "widgetId": "y8qu4jnrfv",
                       "isVisible": true,
                       "recaptchaType": "V3",
@@ -249,53 +250,8 @@
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "buttonVariant": "PRIMARY",
+                      "iconAlign": "left",
                       "placement": "CENTER"
-                    },
-                    {
-                      "widgetName": "Text6Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 15,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 5.715044438838959,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 19,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "#FFC13D",
-                      "text": "Video khuôn mặt",
-                      "key": "8r1xnb87zq",
-                      "isDeprecated": false,
-                      "rightColumn": 30,
-                      "textAlign": "LEFT",
-                      "widgetId": "whnfhxyl0y",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "zz04e2xkev",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
                     },
                     {
                       "boxShadow": "none",
@@ -307,8 +263,8 @@
                       "searchTags": [
                         "upload"
                       ],
-                      "topRow": 10,
-                      "bottomRow": 15,
+                      "topRow": 11,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "allowedFileTypes": [
                         "video/*"
@@ -322,7 +278,7 @@
                           "key": "onFilesSelected"
                         }
                       ],
-                      "leftColumn": 32,
+                      "leftColumn": 35,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -333,7 +289,7 @@
                       "onFilesSelected": "{{showAlert('Chọn Xác nhận để đăng ký','info')}}",
                       "isRequired": true,
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 52,
                       "isDefaultClickDisabled": true,
                       "widgetId": "734ebdniin",
                       "isVisible": true,
@@ -348,6 +304,52 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "files": [],
                       "maxNumFiles": 1
+                    },
+                    {
+                      "widgetName": "Text14",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 11,
+                      "bottomRow": 17,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 13.701171875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 7,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Vui lòng chọn và tải Video chứa khuôn mặt lên tại đây",
+                      "key": "wrrxoqacy6",
+                      "isDeprecated": false,
+                      "rightColumn": 35,
+                      "textAlign": "LEFT",
+                      "widgetId": "d66qxcrf1s",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "zz04e2xkev",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "fontSize": "0.875rem"
                     }
                   ],
                   "key": "wxol8feddv",
@@ -774,7 +776,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{Step1_QueryData.run(() => showAlert('Vui lòng kiểm tra thông tin tại mục 2. THÔNG TIN NGƯỜI DÙNG','success'), () => showAlert('Đã xảy ra lỗi trong quá trình tìm kiếm','error'))}}",
+                      "onClick": "{{Step1_QueryData.run(() => showAlert('Vui lòng kiểm tra thông tin tại mục 2. THÔNG TIN NGƯỜI DÙNG \nvà gửi Video đăng ký khuôn mặt tại mục 3. GỬI FILE ĐĂN G KÝ KHUÔN MẶT','success'), () => showAlert('Đã xảy ra lỗi trong quá trình tìm kiếm','error'))}}",
                       "buttonColor": "#00024c",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
@@ -1671,6 +1673,11 @@
               "boxShadow": "none",
               "widgetName": "Modal2",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onClose"
+                }
+              ],
               "displayName": "Modal",
               "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
               "searchTags": [
