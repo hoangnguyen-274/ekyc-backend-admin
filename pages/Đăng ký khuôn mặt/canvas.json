@@ -1574,8 +1574,10 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "Input5",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "onSubmit": "{{showAlert('Vui lòng Tải video chứa khuôn mặt đăng ký','info')}}",
                       "searchTags": [
                         "form",
                         "text input",
@@ -1594,6 +1596,9 @@
                       "dynamicTriggerPathList": [
                         {
                           "key": "onTextChanged"
+                        },
+                        {
+                          "key": "onSubmit"
                         }
                       ],
                       "resetOnSubmit": true,
@@ -1616,7 +1621,7 @@
                       "key": "1gho2mtd3j",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "onTextChanged": "{{showAlert('Vui lòng Tải video chứa khuôn mặt đăng ký','info')}}",
+                      "onTextChanged": "",
                       "isDeprecated": false,
                       "rightColumn": 44,
                       "widgetId": "jy0jwfq0rk",
