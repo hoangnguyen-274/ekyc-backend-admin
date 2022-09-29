@@ -774,7 +774,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{Step1_QueryData.run(() => showAlert('Tìm kiếm thành công','success'), () => showAlert('Không tìm thấy UserID','error'))}}",
+                      "onClick": "{{Step1_QueryData.run(() => showAlert('Vui lòng kiểm tra thông tin tại mục 2. THÔNG TIN NGƯỜI DÙNG','success'), () => showAlert('Đã xảy ra lỗi trong quá trình tìm kiếm','error'))}}",
                       "buttonColor": "#00024c",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
@@ -1591,7 +1591,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 13.701171875,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onTextChanged"
+                        }
+                      ],
                       "resetOnSubmit": true,
                       "leftColumn": 17,
                       "dynamicBindingPathList": [
@@ -1612,6 +1616,7 @@
                       "key": "1gho2mtd3j",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
+                      "onTextChanged": "{{showAlert('Vui lòng Tải video chứa khuôn mặt đăng ký','info')}}",
                       "isDeprecated": false,
                       "rightColumn": 44,
                       "widgetId": "jy0jwfq0rk",
