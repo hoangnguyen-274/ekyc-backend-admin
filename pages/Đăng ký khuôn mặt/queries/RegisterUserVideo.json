@@ -47,7 +47,7 @@
         },
         {
           "key": "source",
-          "value": "THAI_HUNG_PROD",
+          "value": "THAI_HUNG_DEV",
           "type": "TEXT"
         },
         {
