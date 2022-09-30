@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "https://ekyc-prod-local.tunnel.techainer.com"
+        "url": "https://ekyc-thai-hung.tunnel.techainer.com"
       },
       "invalids": [],
       "messages": [],
@@ -24,7 +24,7 @@
       "headers": [
         {
           "key": "Authorization",
-          "value": "Token 4457775bd9da6f079096309a0e072ee68ee7922e"
+          "value": "Token 6bf409fefde38f08a638d6869cb439812bc0031f"
         },
         {
           "key": "content-type",
@@ -51,6 +51,12 @@
     },
     "executeOnLoad": true,
     "dynamicBindingPathList": [
+      {
+        "key": "path"
+      },
+      {
+        "key": "datasourceUrl"
+      },
       {
         "key": "queryParameters[0].value"
       }
